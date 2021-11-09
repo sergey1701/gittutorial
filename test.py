@@ -4,3 +4,6 @@ class Person():
         self.last_name  = last_name
         self.age = age
         self.gender = gender
+
+    def view_personal_data(self):
+        print(self.first_name, self.last_name, self.age, self.gender)
